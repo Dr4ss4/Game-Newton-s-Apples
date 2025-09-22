@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background: #0b0e13;
+  color: #fff;
+  font-family: system-ui, Segoe UI, Arial;
+}
+
+.wrap {
+  display: grid;
+  place-items: center;
+  height: 100%;
+}
+
+canvas {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  background: #1b2838;
+  box-shadow: 0 20px 60px rgba(0,0,0,.6);
+  border-radius: 12px;
+}
